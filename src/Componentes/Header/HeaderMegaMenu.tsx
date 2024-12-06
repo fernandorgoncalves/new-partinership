@@ -10,7 +10,7 @@
 
   } from '@mantine/core';
   import { useDisclosure } from '@mantine/hooks';
-  import logo from '../../assets/logo.png'
+  import logo from '../../assets/logo.svg'
   import classes from './HeaderMegaMenu.module.css';
     
   export function HeaderMegaMenu() {
