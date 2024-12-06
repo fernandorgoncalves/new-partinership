@@ -4,7 +4,7 @@ import { CardCarousel } from "../Componentes/Hero/CardCarousel";
 
 export default function Home(){
     return(
-        <div>
+        <div >
         <HeaderMegaMenu/>
         <CardCarousel/>
         </div>
