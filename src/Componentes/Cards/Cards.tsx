@@ -3,9 +3,8 @@ import classes from './cards.module.css'
 interface Props {
     image? : JSX.Element
     title? : string
-    description? : string
-  }
-
+    subtitle? : string
+  };
 function Cards(Props: Props){
     return(
         <div className={classes.componente_cards}>
@@ -13,10 +12,8 @@ function Cards(Props: Props){
                 {Props.image}
             </div>
             <div className={classes.description}>
-                <h3>{Props.title}</h3>
-                <span>
-                    {Props.description}
-                </span>
+                <h3 className={classes.h3}>{Props.title}</h3>
+                <h4 className={classes.h4}>{Props.subtitle}</h4>        
             </div>
         </div>
     )
