@@ -5,17 +5,23 @@ interface Props {
     title? : string
     subtitle? : string
     description? : string
+    descriptiona? : string
+    descriptionb? : string
   };
 function Cards(Props: Props){
     return(
         <div className={classes.componente_cards}>
-            <div>
+            <div className={classes.image}>
                 {Props.image}
             </div>
-            <div>
-                <h3 className={classes.h3}>{Props.title}</h3>
-                <h4 className={classes.h4}>{Props.subtitle}</h4>  
-                <p> {Props.description}</p>      
+            <div className={classes.info}>
+                <h3 className={classes.title}>{Props.title}</h3>
+                <h4 className={classes.subtitle}>{Props.subtitle}</h4> 
+                <div className={classes.infoLista}>
+                    <p> {Props.description}</p>      
+                    <p> {Props.descriptiona}</p>      
+                    <p> {Props.descriptionb}</p>     
+                </div>  
             </div>
           </div>
     )

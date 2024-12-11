@@ -1,17 +1,48 @@
 .componente_cards{
     display: flex;
-    width:440px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    width:470px;
     height: 200px;
-    border: 2px solid #757575;
-    border-radius: 10px;     box-sizing: border-box;
-
+    border: 1px solid #cccbcb;
+    border-radius: 10px;     
+    box-sizing: border-box;
+    box-shadow: #757575;
 }
 .image img{
-    height: 120px;
-    border-radius: 10px;
+    height: 160px;
+    border-radius: 5px;
 }
-.description{
+.info{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 7px;
+    padding: 10px;
+}
+.title{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+.subtitle{
+    padding: 0;
+    margin: 0;
     color: #757575;
+    font-weight:700 ;
 }
 
+.infoLista{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+.infoLista p{
+    padding: 0;
+    margin: 0;
+    color: #757575;
+}
 
