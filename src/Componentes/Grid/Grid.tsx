@@ -18,7 +18,8 @@ export function Grid(){
                         <Cards
                 image={<img src={milao} alt="milao"/>}
                 title={"Milão 700.000 pontos"} 
-                subtitle='Serviços Inclusos'
+                subtitle={'Serviços Inclusos'}
+                description={""}
 
             />
                         <Cards

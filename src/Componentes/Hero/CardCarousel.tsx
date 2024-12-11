@@ -10,7 +10,7 @@ import styles from './CardCarousel.module.css';
 
 export function CardCarousel() {
   return (
-    <Carousel withIndicators height={500}>
+    <Carousel withIndicators>
       <Carousel.Slide >
          <img src={hero} className={styles.slide}/>
        </Carousel.Slide>
